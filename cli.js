@@ -9,7 +9,7 @@ const ui = importJsx("./ui");
 
 const cli = meow(`
 	Usage
-	  $ mdugue
+	  $ npx @mdugue/fyi
 `);
 
 render(React.createElement(ui, cli.flags));

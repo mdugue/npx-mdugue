@@ -3,5 +3,5 @@
 ## Usage
 
 ```
-$ npx mdugue
+$ npx @mdugue/fyi
 ```

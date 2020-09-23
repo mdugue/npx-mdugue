@@ -1,14 +1,16 @@
 {
-  "name": "mdugue",
-  "version": "0.0.3",
+  "name": "@mdugue/fyi",
+  "version": "0.0.1",
   "description": "Manuel Dugué's business card",
-  "bin": "cli.js",
+  "bin": {
+    "fyi": "cli.js"
+  },
   "engines": {
     "node": ">=10"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mdugue/npx-mdugue.git"
+    "url": "git+https://github.com/mdugue/npx-mdugue.git"
   },
   "homepage": "https://manuel.fyi/",
   "scripts": {
@@ -57,5 +59,15 @@
     "rules": {
       "react/prop-types": "off"
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/mdugue/npx-mdugue/issues"
+  },
+  "main": "cli.js",
+  "keywords": [
+    "business card",
+    "Manuel Dugué"
+  ],
+  "author": "Manuel Dugué",
+  "license": "ISC"
 }
